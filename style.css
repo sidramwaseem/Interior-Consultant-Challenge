@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #181719
+}
+.navbar{
+  border: 2px solid purple;
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar h1{
+  font-size:2rem;
+  border:2px solid #fff;
+  padding:10px;
+}
+.nav-list{
+  border: 2px solid green;
+
+}
+
+.nav-list li{
+  display: inline-block;
+  padding:10px 50px;
+  margin-top:25px;
+  font-size:1.3rem;
+}
+
+
+.nav-list li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.photo1{
+  max-width: 600px;
+  width:100%;
+  height: auto;
+}
+
+
+/* SECOND SECTION */
+
+.content{
+  width: 100%;
+  margin-top: 150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.introduction{
+  border: 2px solid yellow;
+  width: 350px;
+  height:auto;
+  margin-left:80px;
+  margin-top:100px;
+  padding:10px;
+  line-height: 30px;
+}
+
+.introduction h1{
+  font-size:35px;
+  margin-bottom: 55px;
+}
+
+.introduction p{
+  font-size:24px;
+}
+
+.card{
+  border: 2px solid red;
+  align-content: flex-end;
+  position: relative;
+}
+
+.tweet{
+  position: absolute;
+  border: 2px solid blue;
+  background-color:#000;
+  max-width:350px;
+  width: 100%;
+  right: 40px;
+  bottom: -40px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile img, .profile p{
+  margin:10px;
+}
+
+.profile p{
+  margin:15px;
+}
+.next-line{
+  display:block;
+}
+
+.photo2{
+  border-radius:50%;
+  max-width:70px;
+}
+
+section{
+  padding-bottom: 60px;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+}
