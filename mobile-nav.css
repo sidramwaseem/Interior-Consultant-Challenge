@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #181719 ;
+  color:#fff;
+}
+
+.content{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navlist{
+  position: absolute;
+  display: inline-block;
+  top:125px;
+  list-style: none;
+  text-align: center;
+}
+
+.navlist li{
+  margin: 50px;
+  font-size:25px;
+}
+.navlist li a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+}
+
+.navlist li a:hover{
+  border-bottom: 3px solid #fff;
+  border-radius: 2px;
+}
+
+.cross{
+  display: inline-block;
+  color: #fff;
+  font-size:30px;
+  font-weight: bold;
+  float: right;
+  margin: 15px;
+}
+.cross a{
+  text-decoration: none;
+}
+h3:hover{
+  cursor: pointer;
+}
